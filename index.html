@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>John Carlo B. Estacio | Junior Front/Back End Developer Intern</title>
+  <meta name="description" content="Portfolio of John Carlo B. Estacio, a Bulacan State University College of Industrial Technology student seeking OJT as a junior front/back end developer.">
+  <meta name="theme-color" content="#12232E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpolygon points='50,4 90,27 90,73 50,96 10,73 10,27' fill='%23F0A202'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Apply saved theme before paint to avoid a flash -->
+  <script>
+    try {
+      var t = localStorage.getItem("theme");
+      if (t) document.documentElement.setAttribute("data-theme", t);
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="top">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="John Carlo Estacio, back to top">
+        <span class="brand-mark" aria-hidden="true">JE</span>
+        <span class="brand-name">John Carlo Estacio</span>
+      </a>
+
+      <nav class="nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark theme">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9c0-.5-.05-1-.14-1.5A6 6 0 0 1 13.5 3.14 9 9 0 0 0 12 3z"/></svg>
+        </button>
+        <button class="icon-btn nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+          <span class="bars" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ A. HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="hero-kicker">OJT applicant, Bulacan State University</p>
+          <h1 id="hero-title">John Carlo B. Estacio</h1>
+          <p class="hero-role">Junior Front/Back End Developer Intern</p>
+
+          <dl class="metrics">
+            <div>
+              <dt>Target training hours</dt>
+              <!-- TODO: change to your own rendered/required hours, e.g. 486 Hours / 500 Hours -->
+              <dd>500 Hours required</dd>
+            </div>
+            <div>
+              <dt>Availability window</dt>
+              <!-- TODO: change to your own term -->
+              <dd>Available starting 2nd Semester A.Y. 2026–2027</dd>
+            </div>
+          </dl>
+
+          <div class="cta-row">
+            <!-- TODO: put your PDF in assets/resume/ with this exact name (or replace with a Google Drive public link) -->
+            <a class="btn btn-primary" href="assets/resume/Estacio_JohnCarlo_Resume.pdf" download>Download CV / Resume</a>
+            <a class="btn btn-ghost" href="#contact">Contact / Inquire</a>
+          </div>
+
+          <ul class="channels" aria-label="Direct channels">
+            <!-- TODO: replace with your real links -->
+            <li><a href="https://github.com/loyyyyestacio" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="https://mail.google.com/">Email</a></li>
+          </ul>
+        </div>
+
+        <figure class="portrait" data-label="Add your photo at assets/img/profile.jpg">
+          <div class="portrait-frame">
+            <img src="assets/img/profile.jpg" alt="Portrait of John Carlo B. Estacio in smart-casual attire" width="520" height="600" data-fallback>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ B. ABOUT ============ -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="wrap">
+        <h2 id="about-title" class="section-title">About me</h2>
+
+        <div class="about-grid">
+          <div class="about-main">
+            <p class="lead">
+              I am a student developer at the College of Industrial Technology who builds both the screens people see and the logic behind them. I work carefully, test what I make, and I am looking for an OJT team where I can contribute to real front-end and back-end tasks.
+            </p>
+
+            <h3>Academic background</h3>
+            <!-- TODO: confirm your exact degree program, major and graduation year -->
+            <ul class="facts">
+              <li><span>Degree</span> Bachelor Industrial Technology</li>
+              <li><span>Major</span> Computer Technology</li>
+              <li><span>Institution</span> Bulacan State University, College of Industrial Technology</li>
+              <li><span>Expected graduation</span> 2027</li>
+            </ul>
+          </div>
+
+          <div class="about-side">
+            <h3>Core competencies</h3>
+            <ul class="hex-list">
+              <li>Building responsive layouts that hold up on phones and desktops</li>
+              <li>Front-end and back-end development for offline-capable apps and websites</li>
+              <li>Testing and debugging hardware and software behavior</li>
+              <li>Version control basics and clear technical documentation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ C. SKILLS ============ -->
+    <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+      <div class="wrap">
+        <h2 id="skills-title" class="section-title">Technical skills</h2>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Front-end and core web</h3>
+            <ul class="badges">
+              <li>HTML5</li><li>CSS3</li><li>Flexbox</li><li>CSS Grid</li><li>Responsive design</li><li>JavaScript (basic)</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Tools and platforms</h3>
+            <ul class="badges">
+              <li>Git / GitHub</li><li>VS Code</li><li>Claude</li><li>ChatGPT</li><li>Cursor</li><li>GitHub Copilot</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Design and digital media</h3>
+            <ul class="badges">
+              <li>Layout prototyping</li><li>UI design systems</li><li>Asset optimization</li><li>Vector icons</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Industrial and technical foundations</h3>
+            <ul class="badges">
+              <li>Arduino</li><li>Circuit testing</li><li>Hardware debugging</li><li>Hardware servicing</li><li>Network configuration</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ D. FEATURED PROJECTS ============ -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="wrap">
+        <h2 id="projects-title" class="section-title">Featured projects</h2>
+
+        <!-- Project 1 -->
+        <article class="project">
+          <figure class="shot shot-portrait" data-label="Add a screenshot at assets/img/projects/project1.jpg">
+            <img src="assets/img/projects/project1.png" alt="LearnHive app start screen with a bee mascot and a Start button" width="800" height="560" loading="lazy" data-fallback>
+          </figure>
+
+          <div class="project-body">
+            <h3>LearnHive</h3>
+            <p class="role">Front-End and Back-End Developer</p>
+            <p>
+              LearnHive is a mobile app that keeps working when the internet drops. I designed the screens students and teachers use and built the back-end logic that saves their data on the device so nothing is lost while offline.
+            </p>
+            <!-- TODO: replace badges with the exact technologies you used -->
+            <ul class="badges" aria-label="Tech stack">
+              <li>Mobile app</li><li>Offline storage</li><li>Front-end</li><li>Back-end</li>
+            </ul>
+            <div class="action-row">
+          
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project project-reverse">
+          <figure class="shot" data-label="Add a photo at assets/img/projects/project2.jpg">
+            <img src="assets/img/projects/project2.jpg" alt="Arduino exhaust fan controller on a breadboard showing 29.20 °C and fan speed 100%" width="800" height="560" loading="lazy" data-fallback>
+          </figure>
+
+          <div class="project-body">
+            <h3>Arduino-based automatic exhaust fan controller</h3>
+            <p class="role">Tester and Debugger</p>
+            <p>
+              An electronic controller that changes the exhaust fan speed according to the room temperature, so the fan runs harder only when the room needs it. I tested the circuit and code under different temperatures and debugged the faults I found.
+            </p>
+            <!-- TODO: adjust badges to match your build -->
+            <ul class="badges" aria-label="Tech stack">
+              <li>Arduino</li><li>Temperature sensor</li><li>C/C++</li><li>Circuit testing</li>
+            </ul>
+            <div class="action-row">
+             
+            </div>
+          </div>
+
+          <!-- Interactive preview: fan speed follows temperature -->
+          <div class="sim" id="sim-panel" inert>
+            <div class="sim-inner">
+              <div class="sim-card">
+                <div class="fan-wrap">
+                  <svg class="fan" viewBox="0 0 200 200" role="img" aria-label="Exhaust fan that spins faster as the temperature rises">
+                    <circle cx="100" cy="100" r="94" class="fan-ring"/>
+                    <g id="fan-blades">
+                      <path class="blade" d="M100 100 C 86 70, 90 30, 108 20 C 124 40, 120 80, 100 100 Z"/>
+                      <path class="blade" transform="rotate(72 100 100)" d="M100 100 C 86 70, 90 30, 108 20 C 124 40, 120 80, 100 100 Z"/>
+                      <path class="blade" transform="rotate(144 100 100)" d="M100 100 C 86 70, 90 30, 108 20 C 124 40, 120 80, 100 100 Z"/>
+                      <path class="blade" transform="rotate(216 100 100)" d="M100 100 C 86 70, 90 30, 108 20 C 124 40, 120 80, 100 100 Z"/>
+                      <path class="blade" transform="rotate(288 100 100)" d="M100 100 C 86 70, 90 30, 108 20 C 124 40, 120 80, 100 100 Z"/>
+                    </g>
+                    <circle cx="100" cy="100" r="12" class="fan-hub"/>
+                  </svg>
+                </div>
+
+                <div class="sim-controls">
+                  <label for="temp">Room temperature</label>
+                  <input type="range" id="temp" min="15" max="45" step="1" value="24">
+
+                  <div class="readouts">
+                    <div><span class="readout-label">Temperature</span><output id="temp-out" for="temp">24 °C</output></div>
+                    <div><span class="readout-label">Fan speed</span><output id="speed-out">0%</output></div>
+                  </div>
+
+                  <div class="meter" aria-hidden="true"><div class="meter-fill" id="speed-bar"></div></div>
+                  <p class="sim-status" id="sim-status" aria-live="polite">Fan off. The room is comfortable.</p>
+                  <p class="sim-note">Illustration only. The real controller uses its own temperature thresholds.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ E. CONTACT ============ -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact-grid">
+        <div>
+          <h2 id="contact-title">Interested in bringing me onto your team for OJT? Let’s connect.</h2>
+          <p class="contact-lead">Send me an email with the role, schedule and location. I reply to every inquiry.</p>
+          <!-- TODO: replace with your real email -->
+          <a class="btn btn-hive" href="https://mail.google.com/">Email me about OJT</a>
+        </div>
+
+        <ul class="contact-list">
+          <li><span>Email</span><a href="mailto:loyyyyestacio@gmail.com">loyyyyestacio@gmail.com</a></li>
+          <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/carlo-estacio-a69768447/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/carloestacio</a></li>
+          <li><span>GitHub</span><a href="https://github.com/loyyyyestacio" target="_blank" rel="noopener noreferrer">github.com/loyyyyestacio</a></li>
+          <!-- TODO: edit your preferred deployment area -->
+          <li><span>Preferred setup</span>Bulacan / Metro Manila / Remote</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ F. FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <p>© 2026 John Carlo B. Estacio. All Rights Reserved.</p>
+        <p class="affil">College of Industrial Technology, Bulacan State University</p>
+      </div>
+      <a class="to-top" href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <button class="fab-top" id="fab-top" type="button" aria-label="Back to top" hidden>
+    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
